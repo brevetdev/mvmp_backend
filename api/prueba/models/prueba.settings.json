@@ -1,0 +1,21 @@
+{
+  "kind": "singleType",
+  "collectionName": "pruebas",
+  "info": {
+    "name": "prueba",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "informcion": {
+      "type": "richtext"
+    }
+  }
+}

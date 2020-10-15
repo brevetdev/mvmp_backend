@@ -1,0 +1,42 @@
+{
+  "kind": "singleType",
+  "collectionName": "inicios",
+  "info": {
+    "name": "Inicio",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "imagenFondo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "contenidoInicio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "mvmp.contenido-inicio"
+    },
+    "logo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

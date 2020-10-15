@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/el-museo",
+      "handler": "el-museo.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/el-museo",
+      "handler": "el-museo.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/el-museo",
+      "handler": "el-museo.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_mvmp_contenido_inicios",
+  "info": {
+    "name": "contenidoInicio",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "classTitulo": {
+      "type": "string"
+    }
+  }
+}

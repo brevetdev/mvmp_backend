@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_contenido_contenido_paginas",
+  "info": {
+    "name": "contenidoPagina",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
+    }
+  }
+}
