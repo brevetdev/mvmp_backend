@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "paginas2_colums",
+  "info": {
+    "name": "paginas2Colum",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Paginas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "numero-columnas.columnas"
+    }
+  }
+}

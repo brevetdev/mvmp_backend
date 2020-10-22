@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_numero_columnas_columnas",
+  "info": {
+    "name": "Paginas2Colum",
+    "icon": "dice-three",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "NombrePagina": {
+      "type": "string"
+    },
+    "contenidoPagina2Colum": {
+      "type": "component",
+      "repeatable": true,
+      "component": "numero-columnas.contenido-pagina2-colum"
+    }
+  }
+}

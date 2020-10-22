@@ -1,0 +1,50 @@
+{
+  "collectionName": "components_numero_columnas_contenido_pagina2_colums",
+  "info": {
+    "name": "contenidoPagina2Colum",
+    "icon": "list-ol",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "imagenPaginaUno": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "imagenPaginaDos": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "imagenPaginaTres": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

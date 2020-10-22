@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/paginas-2-colum",
+      "handler": "paginas2-colum.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/paginas-2-colum",
+      "handler": "paginas2-colum.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/paginas-2-colum",
+      "handler": "paginas2-colum.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
