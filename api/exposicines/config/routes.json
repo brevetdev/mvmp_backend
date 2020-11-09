@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/exposicines",
+      "handler": "exposicines.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/exposicines",
+      "handler": "exposicines.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/exposicines",
+      "handler": "exposicines.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

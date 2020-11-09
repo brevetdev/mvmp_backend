@@ -1,0 +1,95 @@
+{
+  "collectionName": "components_content_exposiciones_seccion_exposiciones",
+  "info": {
+    "name": "seccionExposiciones",
+    "icon": "border-none",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "descripcion": {
+      "type": "richtext"
+    },
+    "imagen_videoFondo": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "seccionPrincipal": {
+      "type": "boolean"
+    },
+    "textoBoton": {
+      "type": "string"
+    },
+    "imagenesRecurso_1": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "imagenesRecurso_2": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "imagenesRecurso_3": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "tituloSeccion": {
+      "type": "string"
+    },
+    "subtituloSeccion": {
+      "type": "string"
+    },
+    "seccion_laterale": {
+      "model": "seccion-laterares"
+    },
+    "imagenesRecurso_4": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "imagenesRecurso_5": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}
