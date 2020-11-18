@@ -10,7 +10,7 @@
     "descripcion": {
       "type": "richtext"
     },
-    "imagen_videoFondo": {
+    "imagenFondo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
@@ -81,6 +81,17 @@
       "required": false
     },
     "imagenesRecurso_5": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "videoFondo": {
       "model": "file",
       "via": "related",
       "allowedTypes": [
