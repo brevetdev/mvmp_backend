@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_item_menus_item_menus",
+  "info": {
+    "name": "itemMenu",
+    "icon": "calendar-plus",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "urlItem": {
+      "type": "string"
+    },
+    "tituloItem": {
+      "type": "string"
+    },
+    "tipoPagina": {
+      "type": "enumeration",
+      "enum": [
+        "dosColumnas",
+        "exposicion",
+        "contacto",
+        "mapa",
+        "home"
+      ]
+    }
+  }
+}
