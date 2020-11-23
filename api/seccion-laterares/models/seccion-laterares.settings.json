@@ -32,6 +32,14 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "laterales": {
+      "type": "enumeration",
+      "enum": [
+        "caqueta",
+        "arauca",
+        "cordoba"
+      ]
     }
   }
 }
