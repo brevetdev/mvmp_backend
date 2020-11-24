@@ -45,6 +45,17 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "columnaPrincipal": {
+      "type": "boolean",
+      "default": false
+    },
+    "posicion": {
+      "type": "enumeration",
+      "enum": [
+        "izquierda",
+        "derecha"
+      ]
     }
   }
 }

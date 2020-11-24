@@ -1,0 +1,45 @@
+{
+  "kind": "collectionType",
+  "collectionName": "seccion_laterares",
+  "info": {
+    "name": "seccionLaterales",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "Internas": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-exposiciones.secciones-exposiciones"
+    },
+    "botonTitulo": {
+      "type": "string"
+    },
+    "fondoTituto": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "laterales": {
+      "type": "enumeration",
+      "enum": [
+        "caqueta",
+        "arauca",
+        "cordoba"
+      ]
+    }
+  }
+}

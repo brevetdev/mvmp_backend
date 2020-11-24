@@ -1,0 +1,20 @@
+{
+  "kind": "singleType",
+  "collectionName": "exposicines",
+  "info": {
+    "name": "exposiciones",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "paginasExposiciones": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-exposiciones.paginas-exposiciones"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_content_exposiciones_paginas_exposiciones",
+  "info": {
+    "name": "paginasExposiciones",
+    "icon": "archive",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "nombrePagina": {
+      "type": "string"
+    },
+    "agregarSeccion": {
+      "type": "component",
+      "repeatable": true,
+      "component": "content-exposiciones.seccion-exposiciones"
+    }
+  }
+}

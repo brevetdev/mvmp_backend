@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_item_menu_secciones_menus",
+  "info": {
+    "name": "seccionesMenu",
+    "icon": "align-right",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "itemMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item-menus.item-menu"
+    },
+    "tituloSeccion": {
+      "type": "string"
+    }
+  }
+}

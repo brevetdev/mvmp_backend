@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "menus",
+  "info": {
+    "name": "menu",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "tituloPrincipal": {
+      "type": "string"
+    },
+    "seccionesMenu": {
+      "type": "component",
+      "repeatable": true,
+      "component": "item-menu.secciones-menu"
+    }
+  }
+}

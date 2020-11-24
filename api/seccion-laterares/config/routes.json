@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/seccion-laterares",
+      "handler": "seccion-laterares.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/seccion-laterares/count",
+      "handler": "seccion-laterares.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/seccion-laterares/:id",
+      "handler": "seccion-laterares.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/seccion-laterares",
+      "handler": "seccion-laterares.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/seccion-laterares/:id",
+      "handler": "seccion-laterares.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/seccion-laterares/:id",
+      "handler": "seccion-laterares.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
