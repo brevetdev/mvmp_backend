@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_seciones_mapa_exposicion_mapas",
+  "info": {
+    "name": "ExposicionMapa",
+    "icon": "arrow-alt-circle-down"
+  },
+  "options": {},
+  "attributes": {
+    "pitch": {
+      "type": "string"
+    },
+    "descripcionSeccion": {
+      "type": "string"
+    },
+    "seccionImagen": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "claseSeccion": {
+      "type": "string"
+    },
+    "bearing": {
+      "type": "string"
+    },
+    "zoom": {
+      "type": "string"
+    },
+    "longitud": {
+      "type": "string"
+    },
+    "latitud": {
+      "type": "string"
+    },
+    "idseccion": {
+      "type": "string"
+    },
+    "tituloSeccion": {
+      "type": "string"
+    }
+  }
+}

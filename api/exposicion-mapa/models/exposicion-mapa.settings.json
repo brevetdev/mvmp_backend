@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "exposicion_mapas",
+  "info": {
+    "name": "exposicionMapa"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "urlmapa": {
+      "type": "string"
+    },
+    "accessToken": {
+      "type": "string"
+    },
+    "latitud": {
+      "type": "string"
+    },
+    "longitud": {
+      "type": "string"
+    },
+    "zoom": {
+      "type": "string"
+    },
+    "bearing": {
+      "type": "string"
+    },
+    "pitch": {
+      "type": "string"
+    },
+    "ExposicionMapa": {
+      "type": "component",
+      "repeatable": true,
+      "component": "seciones-mapa.exposicion-mapa"
+    }
+  }
+}
