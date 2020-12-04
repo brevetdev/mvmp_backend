@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/archivos",
+      "handler": "archivos.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/archivos",
+      "handler": "archivos.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/archivos",
+      "handler": "archivos.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

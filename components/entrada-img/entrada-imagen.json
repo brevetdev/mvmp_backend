@@ -1,0 +1,44 @@
+{
+  "collectionName": "components_entrada_img_entrada_imagens",
+  "info": {
+    "name": "entradaImagen",
+    "icon": "archway",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imagen": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "anio": {
+      "type": "string"
+    },
+    "lugar": {
+      "type": "string"
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "categoria1"
+      ]
+    },
+    "pieImagen": {
+      "type": "string"
+    },
+    "destacado": {
+      "type": "boolean",
+      "default": false
+    }
+  }
+}
