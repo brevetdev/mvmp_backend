@@ -30,6 +30,9 @@
     },
     "citaArticulo": {
       "type": "richtext"
+    },
+    "ResumenArticulo": {
+      "type": "richtext"
     }
   }
 }

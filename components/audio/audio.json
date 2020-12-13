@@ -20,6 +20,15 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "Anio": {
+      "type": "integer"
+    },
+    "lugar": {
+      "type": "string"
+    },
+    "piedeAudio": {
+      "type": "richtext"
     }
   }
 }

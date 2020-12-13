@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_categorias_friltro_categorias_filtros",
+  "info": {
+    "name": "categoriasFiltro",
+    "icon": "angry"
+  },
+  "options": {},
+  "attributes": {
+    "categorias": {
+      "type": "enumeration",
+      "enum": [
+        "categoria1",
+        "categoria2",
+        "categoria3"
+      ],
+      "default": "categoria1"
+    }
+  }
+}
