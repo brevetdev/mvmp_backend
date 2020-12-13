@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "archivos_colecccions",
+  "info": {
+    "name": "ArchivosColecccion",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "nombrePagina": {
+      "type": "string"
+    },
+    "ArchivosColeccion": {
+      "type": "component",
+      "repeatable": false,
+      "component": "archivos-coleccion.archivos-coleccion"
+    }
+  }
+}

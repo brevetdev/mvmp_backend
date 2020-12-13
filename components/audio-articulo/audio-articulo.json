@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_audio_articulo_audio_articulos",
+  "info": {
+    "name": "audioArticulo",
+    "icon": "ambulance"
+  },
+  "options": {},
+  "attributes": {
+    "descripcionAudio": {
+      "type": "richtext"
+    },
+    "audioArticulo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Anio": {
+      "type": "integer"
+    }
+  }
+}

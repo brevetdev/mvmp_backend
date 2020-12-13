@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_imagen_articulo_imagen_articulos",
+  "info": {
+    "name": "imagenArticulo",
+    "icon": "angle-double-down",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Anio": {
+      "type": "integer"
+    },
+    "descripcionImagen": {
+      "type": "richtext"
+    },
+    "piedeFoto": {
+      "type": "string"
+    },
+    "imagenArticulo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "esDestacado": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    }
+  }
+}

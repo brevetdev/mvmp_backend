@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_blog_entrada_blog_entradas",
+  "info": {
+    "name": "blogEntrada",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "resumenBlog": {
+      "type": "richtext"
+    },
+    "tituloBlog": {
+      "type": "string"
+    },
+    "videoBlog": {
+      "type": "component",
+      "repeatable": true,
+      "component": "videoarticulo.video-articulo"
+    },
+    "imagenBlog": {
+      "type": "component",
+      "repeatable": true,
+      "component": "imagen-articulo.imagen-articulo"
+    },
+    "parrafo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "parrafo-blog.parrafo-blog"
+    },
+    "audio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "audio-articulo.audio-articulo"
+    }
+  }
+}

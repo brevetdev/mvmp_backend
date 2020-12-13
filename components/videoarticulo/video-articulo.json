@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_video_articulo_video_articulos",
+  "info": {
+    "name": "videoArticulo",
+    "icon": "allergies"
+  },
+  "options": {},
+  "attributes": {
+    "DescripcionVideo": {
+      "type": "richtext"
+    },
+    "videoArticulo": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "Anio": {
+      "type": "integer"
+    },
+    "leyendaVideo": {
+      "type": "string"
+    }
+  }
+}

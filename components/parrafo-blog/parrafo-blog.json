@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_parrafo_blog_parrafo_blogs",
+  "info": {
+    "name": "parrafoBlog",
+    "icon": "address-book"
+  },
+  "options": {},
+  "attributes": {
+    "parrafoBlog": {
+      "type": "richtext"
+    }
+  }
+}
