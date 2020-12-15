@@ -21,9 +21,6 @@
     "descripcion": {
       "type": "richtext"
     },
-    "anio": {
-      "type": "string"
-    },
     "lugar": {
       "type": "string"
     },
@@ -39,6 +36,9 @@
     "destacado": {
       "type": "boolean",
       "default": false
+    },
+    "fecha": {
+      "type": "date"
     }
   }
 }

@@ -21,9 +21,6 @@
     "descripcionVideo": {
       "type": "richtext"
     },
-    "anio": {
-      "type": "string"
-    },
     "categoria": {
       "type": "enumeration",
       "enum": [
@@ -35,6 +32,9 @@
     },
     "pieVideo": {
       "type": "richtext"
+    },
+    "fecha": {
+      "type": "date"
     }
   }
 }
