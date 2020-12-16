@@ -21,14 +21,20 @@
       "plugin": "upload",
       "required": false
     },
-    "Anio": {
-      "type": "integer"
-    },
     "lugar": {
       "type": "string"
     },
     "piedeAudio": {
       "type": "richtext"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "categoria1"
+      ]
     }
   }
 }
