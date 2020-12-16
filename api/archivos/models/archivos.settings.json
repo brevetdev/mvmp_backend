@@ -1,0 +1,41 @@
+{
+  "kind": "singleType",
+  "collectionName": "archivos",
+  "info": {
+    "name": "archivos",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "entradaBlog": {
+      "type": "component",
+      "repeatable": true,
+      "component": "entrada-blog.entrada-blog"
+    },
+    "EntradaImgen": {
+      "type": "component",
+      "repeatable": true,
+      "component": "entrada-img.entrada-imagen"
+    },
+    "entradaVideo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "video.video"
+    },
+    "EntradaAudio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "audio.audio"
+    }
+  }
+}

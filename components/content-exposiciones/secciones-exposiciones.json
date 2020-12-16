@@ -32,16 +32,21 @@
       "plugin": "upload",
       "required": false
     },
-    "Audios": {
-      "collection": "file",
+    "videoRecurso": {
+      "model": "file",
       "via": "related",
       "allowedTypes": [
-        "images",
         "files",
+        "images",
         "videos"
       ],
       "plugin": "upload",
       "required": false
+    },
+    "audios": {
+      "type": "component",
+      "repeatable": true,
+      "component": "audio.audio"
     }
   }
 }

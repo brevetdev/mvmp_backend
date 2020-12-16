@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/exposicion-mapa",
+      "handler": "exposicion-mapa.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/exposicion-mapa",
+      "handler": "exposicion-mapa.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/exposicion-mapa",
+      "handler": "exposicion-mapa.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

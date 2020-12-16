@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_entrada_blog_entrada_blogs",
+  "info": {
+    "name": "articuloBlog",
+    "icon": "arrow-alt-circle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "audioBlog": {
+      "type": "component",
+      "repeatable": true,
+      "component": "audio.audio"
+    },
+    "ImagenBlog": {
+      "type": "component",
+      "repeatable": true,
+      "component": "entrada-img.entrada-imagen"
+    },
+    "videoBlog": {
+      "type": "component",
+      "repeatable": true,
+      "component": "video.video"
+    },
+    "citaArticulo": {
+      "type": "richtext"
+    },
+    "ResumenArticulo": {
+      "type": "richtext"
+    }
+  }
+}

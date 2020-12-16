@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/archivos-colecccion",
+      "handler": "archivos-colecccion.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/archivos-colecccion",
+      "handler": "archivos-colecccion.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/archivos-colecccion",
+      "handler": "archivos-colecccion.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

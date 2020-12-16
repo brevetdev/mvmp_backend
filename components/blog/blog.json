@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_blog_blogs",
+  "info": {
+    "name": "blog",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "audio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "audio-articulo.audio-articulo"
+    },
+    "imagen": {
+      "type": "component",
+      "repeatable": true,
+      "component": "imagen-articulo.imagen-articulo"
+    },
+    "video": {
+      "type": "component",
+      "repeatable": true,
+      "component": "videoarticulo.video-articulo"
+    }
+  }
+}

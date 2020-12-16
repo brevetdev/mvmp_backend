@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_video_videos",
+  "info": {
+    "name": "video",
+    "icon": "arrow-alt-circle-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "video": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "descripcionVideo": {
+      "type": "richtext"
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "categoria"
+      ]
+    },
+    "lugar": {
+      "type": "string"
+    },
+    "pieVideo": {
+      "type": "richtext"
+    },
+    "fecha": {
+      "type": "date"
+    }
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_audio_audio",
+  "info": {
+    "name": "audio",
+    "icon": "address-card",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "descripcionAudio": {
+      "type": "richtext"
+    },
+    "audio": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "lugar": {
+      "type": "string"
+    },
+    "piedeAudio": {
+      "type": "richtext"
+    },
+    "fecha": {
+      "type": "date"
+    },
+    "categoria": {
+      "type": "enumeration",
+      "enum": [
+        "categoria1"
+      ]
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_archivos_coleccion_archivos_coleccions",
+  "info": {
+    "name": "ArchivosColeccion",
+    "icon": "angle-left",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "audio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "audio-articulo.audio-articulo"
+    },
+    "videoArticulo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "videoarticulo.video-articulo"
+    }
+  }
+}
