@@ -37,6 +37,10 @@
       ],
       "plugin": "upload",
       "required": false
+    },
+    "enlace": {
+      "type": "string",
+      "default": "/mapa/Exposición"
     }
   }
 }

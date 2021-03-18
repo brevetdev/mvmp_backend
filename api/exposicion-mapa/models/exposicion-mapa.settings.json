@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "exposicion_mapas",
   "info": {
-    "name": "exposicionMapa"
+    "name": "exposicionMapa",
+    "description": ""
   },
   "options": {
     "increments": true,
