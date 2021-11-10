@@ -38,7 +38,8 @@
       "enum": [
         "caqueta",
         "arauca",
-        "cordoba"
+        "cordoba",
+        "lineadetiempo"
       ]
     }
   }
